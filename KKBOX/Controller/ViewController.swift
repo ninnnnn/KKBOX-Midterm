@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     let provider = PlayListProvider()
     var playListModel: PlayListModel?
+    var dataCount = 20
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         
         getHitsPlayList()
         refreshData()
+        loadMoreData()
     }
     
     func getHitsPlayList() {
@@ -48,8 +50,26 @@ class ViewController: UIViewController {
             /// 开始刷新了
             /// 开始刷新的回调
             DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
-                self?.getHitsPlayList()
+//                self?.getHitsPlayList()
+                self?.dataCount += 20
+                self?.tableView.reloadData()
                 self?.tableView.cr.resetNoMore()
+            })
+        }
+    }
+    
+    func loadMoreData() {
+        tableView.cr.addFootRefresh(animator: NormalFooterAnimator()) { [weak self] in
+            /// 开始下拉加载
+            /// 回调
+            DispatchQueue.main.asyncAfter(deadline: .now(), execute: {
+                if self!.dataCount >= 48 {
+                    self?.tableView.cr.endLoadingMore()
+                    self?.tableView.cr.noticeNoMoreData()
+                }
+                self?.dataCount += 20
+                self?.tableView.reloadData()
+                self?.tableView.cr.endLoadingMore()
             })
         }
     }
@@ -61,7 +81,11 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return playListModel?.tracks.data.count ?? 20
+        if dataCount < playListModel?.tracks.data.count ?? 20 {
+            return dataCount
+        } else {
+            return playListModel?.tracks.data.count ?? 20
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
