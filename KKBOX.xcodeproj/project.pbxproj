@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6620B323D141910053FD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B223D141910053FD07 /* AppDelegate.swift */; };
+		BE6620B523D141910053FD07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B423D141910053FD07 /* SceneDelegate.swift */; };
+		BE6620B723D141910053FD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B623D141910053FD07 /* ViewController.swift */; };
+		BE6620BA23D141910053FD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6620B823D141910053FD07 /* Main.storyboard */; };
+		BE6620BC23D141930053FD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6620BB23D141930053FD07 /* Assets.xcassets */; };
+		BE6620BF23D141930053FD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */; };
+		BE6620CA23D141930053FD07 /* KKBOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620C923D141930053FD07 /* KKBOXTests.swift */; };
+		BE6620D523D141930053FD07 /* KKBOXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620D423D141930053FD07 /* KKBOXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE6620C623D141930053FD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6620A723D141910053FD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6620AE23D141910053FD07;
+			remoteInfo = KKBOX;
+		};
+		BE6620D123D141930053FD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6620A723D141910053FD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6620AE23D141910053FD07;
+			remoteInfo = KKBOX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE6620AF23D141910053FD07 /* KKBOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6620B223D141910053FD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE6620B423D141910053FD07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE6620B623D141910053FD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE6620B923D141910053FD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE6620BB23D141930053FD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6620BE23D141930053FD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE6620C023D141930053FD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6620C523D141930053FD07 /* KKBOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6620C923D141930053FD07 /* KKBOXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXTests.swift; sourceTree = "<group>"; };
+		BE6620CB23D141930053FD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6620D023D141930053FD07 /* KKBOXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6620D423D141930053FD07 /* KKBOXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXUITests.swift; sourceTree = "<group>"; };
+		BE6620D623D141930053FD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6620AC23D141910053FD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620C223D141930053FD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620CD23D141930053FD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6620A623D141910053FD07 = {
+			isa = PBXGroup;
+			children = (
+				BE6620B123D141910053FD07 /* KKBOX */,
+				BE6620C823D141930053FD07 /* KKBOXTests */,
+				BE6620D323D141930053FD07 /* KKBOXUITests */,
+				BE6620B023D141910053FD07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6620B023D141910053FD07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620AF23D141910053FD07 /* KKBOX.app */,
+				BE6620C523D141930053FD07 /* KKBOXTests.xctest */,
+				BE6620D023D141930053FD07 /* KKBOXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6620B123D141910053FD07 /* KKBOX */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620B223D141910053FD07 /* AppDelegate.swift */,
+				BE6620B423D141910053FD07 /* SceneDelegate.swift */,
+				BE6620B623D141910053FD07 /* ViewController.swift */,
+				BE6620B823D141910053FD07 /* Main.storyboard */,
+				BE6620BB23D141930053FD07 /* Assets.xcassets */,
+				BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */,
+				BE6620C023D141930053FD07 /* Info.plist */,
+			);
+			path = KKBOX;
+			sourceTree = "<group>";
+		};
+		BE6620C823D141930053FD07 /* KKBOXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620C923D141930053FD07 /* KKBOXTests.swift */,
+				BE6620CB23D141930053FD07 /* Info.plist */,
+			);
+			path = KKBOXTests;
+			sourceTree = "<group>";
+		};
+		BE6620D323D141930053FD07 /* KKBOXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620D423D141930053FD07 /* KKBOXUITests.swift */,
+				BE6620D623D141930053FD07 /* Info.plist */,
+			);
+			path = KKBOXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6620AE23D141910053FD07 /* KKBOX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6620D923D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOX" */;
+			buildPhases = (
+				BE6620AB23D141910053FD07 /* Sources */,
+				BE6620AC23D141910053FD07 /* Frameworks */,
+				BE6620AD23D141910053FD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKBOX;
+			productName = KKBOX;
+			productReference = BE6620AF23D141910053FD07 /* KKBOX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE6620C423D141930053FD07 /* KKBOXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6620DC23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXTests" */;
+			buildPhases = (
+				BE6620C123D141930053FD07 /* Sources */,
+				BE6620C223D141930053FD07 /* Frameworks */,
+				BE6620C323D141930053FD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6620C723D141930053FD07 /* PBXTargetDependency */,
+			);
+			name = KKBOXTests;
+			productName = KKBOXTests;
+			productReference = BE6620C523D141930053FD07 /* KKBOXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE6620CF23D141930053FD07 /* KKBOXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6620DF23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXUITests" */;
+			buildPhases = (
+				BE6620CC23D141930053FD07 /* Sources */,
+				BE6620CD23D141930053FD07 /* Frameworks */,
+				BE6620CE23D141930053FD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6620D223D141930053FD07 /* PBXTargetDependency */,
+			);
+			name = KKBOXUITests;
+			productName = KKBOXUITests;
+			productReference = BE6620D023D141930053FD07 /* KKBOXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6620A723D141910053FD07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ninn;
+				TargetAttributes = {
+					BE6620AE23D141910053FD07 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BE6620C423D141930053FD07 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BE6620AE23D141910053FD07;
+					};
+					BE6620CF23D141930053FD07 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BE6620AE23D141910053FD07;
+					};
+				};
+			};
+			buildConfigurationList = BE6620AA23D141910053FD07 /* Build configuration list for PBXProject "KKBOX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6620A623D141910053FD07;
+			productRefGroup = BE6620B023D141910053FD07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6620AE23D141910053FD07 /* KKBOX */,
+				BE6620C423D141930053FD07 /* KKBOXTests */,
+				BE6620CF23D141930053FD07 /* KKBOXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6620AD23D141910053FD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6620BF23D141930053FD07 /* LaunchScreen.storyboard in Resources */,
+				BE6620BC23D141930053FD07 /* Assets.xcassets in Resources */,
+				BE6620BA23D141910053FD07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620C323D141930053FD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620CE23D141930053FD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6620AB23D141910053FD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6620B723D141910053FD07 /* ViewController.swift in Sources */,
+				BE6620B323D141910053FD07 /* AppDelegate.swift in Sources */,
+				BE6620B523D141910053FD07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620C123D141930053FD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6620CA23D141930053FD07 /* KKBOXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6620CC23D141930053FD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6620D523D141930053FD07 /* KKBOXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE6620C723D141930053FD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6620AE23D141910053FD07 /* KKBOX */;
+			targetProxy = BE6620C623D141930053FD07 /* PBXContainerItemProxy */;
+		};
+		BE6620D223D141930053FD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6620AE23D141910053FD07 /* KKBOX */;
+			targetProxy = BE6620D123D141930053FD07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE6620B823D141910053FD07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6620B923D141910053FD07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE6620BE23D141930053FD07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE6620D723D141930053FD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6620D823D141930053FD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6620DA23D141930053FD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6620DB23D141930053FD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE6620DD23D141930053FD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBOX.app/KKBOX";
+			};
+			name = Debug;
+		};
+		BE6620DE23D141930053FD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOXTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBOX.app/KKBOX";
+			};
+			name = Release;
+		};
+		BE6620E023D141930053FD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKBOX;
+			};
+			name = Debug;
+		};
+		BE6620E123D141930053FD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKBOXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "appworks-school.KKBOXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKBOX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6620AA23D141910053FD07 /* Build configuration list for PBXProject "KKBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6620D723D141930053FD07 /* Debug */,
+				BE6620D823D141930053FD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6620D923D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6620DA23D141930053FD07 /* Debug */,
+				BE6620DB23D141930053FD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6620DC23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6620DD23D141930053FD07 /* Debug */,
+				BE6620DE23D141930053FD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6620DF23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6620E023D141930053FD07 /* Debug */,
+				BE6620E123D141930053FD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6620A723D141910053FD07 /* Project object */;
+}
