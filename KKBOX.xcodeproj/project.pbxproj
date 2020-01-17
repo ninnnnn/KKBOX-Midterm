@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A23BB0A0F03878F2EF5691 /* Pods_KKBOX_KKBOXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FC6A963BE761E27C0AA674 /* Pods_KKBOX_KKBOXUITests.framework */; };
 		BE6620B323D141910053FD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B223D141910053FD07 /* AppDelegate.swift */; };
 		BE6620B523D141910053FD07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B423D141910053FD07 /* SceneDelegate.swift */; };
 		BE6620B723D141910053FD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620B623D141910053FD07 /* ViewController.swift */; };
@@ -15,6 +16,13 @@
 		BE6620BF23D141930053FD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */; };
 		BE6620CA23D141930053FD07 /* KKBOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620C923D141930053FD07 /* KKBOXTests.swift */; };
 		BE6620D523D141930053FD07 /* KKBOXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620D423D141930053FD07 /* KKBOXUITests.swift */; };
+		BE6620E323D143EB0053FD07 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620E223D143EB0053FD07 /* HTTPClient.swift */; };
+		BE6620E523D151390053FD07 /* PlayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620E423D151380053FD07 /* PlayListTableViewCell.swift */; };
+		BE6620E823D1565A0053FD07 /* PlayListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620E723D1565A0053FD07 /* PlayListProvider.swift */; };
+		BE6620EA23D157280053FD07 /* PlayListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620E923D157280053FD07 /* PlayListModel.swift */; };
+		BE6620EC23D15E2A0053FD07 /* KingFisherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6620EB23D15E2A0053FD07 /* KingFisherWrapper.swift */; };
+		C1D6CCA9356DDA0F99CADC0F /* Pods_KKBOXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DB77C10ED1CF9318455380 /* Pods_KKBOXTests.framework */; };
+		C89A1E61FE020AAD4255DD6E /* Pods_KKBOX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DFE22C43D1C3D03221A7F2 /* Pods_KKBOX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E29D66482E970A9E3DE777 /* Pods-KKBOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOX.release.xcconfig"; path = "Target Support Files/Pods-KKBOX/Pods-KKBOX.release.xcconfig"; sourceTree = "<group>"; };
+		05395BFFF5649975CDF494DD /* Pods-KKBOX-KKBOXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOX-KKBOXUITests.release.xcconfig"; path = "Target Support Files/Pods-KKBOX-KKBOXUITests/Pods-KKBOX-KKBOXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13479F203A80AA30A22D905C /* Pods-KKBOXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXTests.release.xcconfig"; path = "Target Support Files/Pods-KKBOXTests/Pods-KKBOXTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A1109D3EF2C83DCE39B705B /* Pods-KKBOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOX.debug.xcconfig"; path = "Target Support Files/Pods-KKBOX/Pods-KKBOX.debug.xcconfig"; sourceTree = "<group>"; };
+		48DB77C10ED1CF9318455380 /* Pods_KKBOXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DFE22C43D1C3D03221A7F2 /* Pods_KKBOX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C49BE252547261F16FB96C5 /* Pods-KKBOXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOXTests.debug.xcconfig"; path = "Target Support Files/Pods-KKBOXTests/Pods-KKBOXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84FC6A963BE761E27C0AA674 /* Pods_KKBOX_KKBOXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKBOX_KKBOXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6620AF23D141910053FD07 /* KKBOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6620B223D141910053FD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE6620B423D141910053FD07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		BE6620D023D141930053FD07 /* KKBOXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBOXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6620D423D141930053FD07 /* KKBOXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKBOXUITests.swift; sourceTree = "<group>"; };
 		BE6620D623D141930053FD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6620E223D143EB0053FD07 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		BE6620E423D151380053FD07 /* PlayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewCell.swift; sourceTree = "<group>"; };
+		BE6620E723D1565A0053FD07 /* PlayListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListProvider.swift; sourceTree = "<group>"; };
+		BE6620E923D157280053FD07 /* PlayListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListModel.swift; sourceTree = "<group>"; };
+		BE6620EB23D15E2A0053FD07 /* KingFisherWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherWrapper.swift; sourceTree = "<group>"; };
+		CA4B03F9CF252095F27C9FE4 /* Pods-KKBOX-KKBOXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKBOX-KKBOXUITests.debug.xcconfig"; path = "Target Support Files/Pods-KKBOX-KKBOXUITests/Pods-KKBOX-KKBOXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89A1E61FE020AAD4255DD6E /* Pods_KKBOX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D6CCA9356DDA0F99CADC0F /* Pods_KKBOXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A23BB0A0F03878F2EF5691 /* Pods_KKBOX_KKBOXUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85F893FC32402500337DA237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54DFE22C43D1C3D03221A7F2 /* Pods_KKBOX.framework */,
+				84FC6A963BE761E27C0AA674 /* Pods_KKBOX_KKBOXUITests.framework */,
+				48DB77C10ED1CF9318455380 /* Pods_KKBOXTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE6620A623D141910053FD07 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				BE6620C823D141930053FD07 /* KKBOXTests */,
 				BE6620D323D141930053FD07 /* KKBOXUITests */,
 				BE6620B023D141910053FD07 /* Products */,
+				CC87F249FE2B9AEF0A767713 /* Pods */,
+				85F893FC32402500337DA237 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +136,13 @@
 		BE6620B123D141910053FD07 /* KKBOX */ = {
 			isa = PBXGroup;
 			children = (
+				BE6620ED23D15EF00053FD07 /* Third Party Wrapper */,
+				BE6620E623D156320053FD07 /* Model */,
+				BE6620EE23D15EFD0053FD07 /* Controller */,
+				BE6620EF23D15F040053FD07 /* View */,
 				BE6620B223D141910053FD07 /* AppDelegate.swift */,
 				BE6620B423D141910053FD07 /* SceneDelegate.swift */,
-				BE6620B623D141910053FD07 /* ViewController.swift */,
-				BE6620B823D141910053FD07 /* Main.storyboard */,
 				BE6620BB23D141930053FD07 /* Assets.xcassets */,
-				BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */,
 				BE6620C023D141930053FD07 /* Info.plist */,
 			);
 			path = KKBOX;
@@ -128,6 +166,55 @@
 			path = KKBOXUITests;
 			sourceTree = "<group>";
 		};
+		BE6620E623D156320053FD07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620E223D143EB0053FD07 /* HTTPClient.swift */,
+				BE6620E723D1565A0053FD07 /* PlayListProvider.swift */,
+				BE6620E923D157280053FD07 /* PlayListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE6620ED23D15EF00053FD07 /* Third Party Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620EB23D15E2A0053FD07 /* KingFisherWrapper.swift */,
+			);
+			path = "Third Party Wrapper";
+			sourceTree = "<group>";
+		};
+		BE6620EE23D15EFD0053FD07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620B623D141910053FD07 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE6620EF23D15F040053FD07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE6620E423D151380053FD07 /* PlayListTableViewCell.swift */,
+				BE6620B823D141910053FD07 /* Main.storyboard */,
+				BE6620BD23D141930053FD07 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC87F249FE2B9AEF0A767713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A1109D3EF2C83DCE39B705B /* Pods-KKBOX.debug.xcconfig */,
+				03E29D66482E970A9E3DE777 /* Pods-KKBOX.release.xcconfig */,
+				CA4B03F9CF252095F27C9FE4 /* Pods-KKBOX-KKBOXUITests.debug.xcconfig */,
+				05395BFFF5649975CDF494DD /* Pods-KKBOX-KKBOXUITests.release.xcconfig */,
+				6C49BE252547261F16FB96C5 /* Pods-KKBOXTests.debug.xcconfig */,
+				13479F203A80AA30A22D905C /* Pods-KKBOXTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE6620D923D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOX" */;
 			buildPhases = (
+				3A82845D1C8A9A4ECE664C59 /* [CP] Check Pods Manifest.lock */,
 				BE6620AB23D141910053FD07 /* Sources */,
 				BE6620AC23D141910053FD07 /* Frameworks */,
 				BE6620AD23D141910053FD07 /* Resources */,
+				6953C690F9666C7008C50079 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE6620DC23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXTests" */;
 			buildPhases = (
+				ABF012E2FA092335BA679AE5 /* [CP] Check Pods Manifest.lock */,
 				BE6620C123D141930053FD07 /* Sources */,
 				BE6620C223D141930053FD07 /* Frameworks */,
 				BE6620C323D141930053FD07 /* Resources */,
@@ -170,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE6620DF23D141930053FD07 /* Build configuration list for PBXNativeTarget "KKBOXUITests" */;
 			buildPhases = (
+				3C7B699626C4C4AC11A19C14 /* [CP] Check Pods Manifest.lock */,
 				BE6620CC23D141930053FD07 /* Sources */,
 				BE6620CD23D141930053FD07 /* Frameworks */,
 				BE6620CE23D141930053FD07 /* Resources */,
+				34BCEF3CC68BB02A96D12E4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +346,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34BCEF3CC68BB02A96D12E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOX-KKBOXUITests/Pods-KKBOX-KKBOXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOX-KKBOXUITests/Pods-KKBOX-KKBOXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKBOX-KKBOXUITests/Pods-KKBOX-KKBOXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A82845D1C8A9A4ECE664C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C7B699626C4C4AC11A19C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOX-KKBOXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6953C690F9666C7008C50079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOX/Pods-KKBOX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKBOX/Pods-KKBOX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKBOX/Pods-KKBOX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF012E2FA092335BA679AE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKBOXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE6620AB23D141910053FD07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6620EA23D157280053FD07 /* PlayListModel.swift in Sources */,
 				BE6620B723D141910053FD07 /* ViewController.swift in Sources */,
+				BE6620E823D1565A0053FD07 /* PlayListProvider.swift in Sources */,
+				BE6620EC23D15E2A0053FD07 /* KingFisherWrapper.swift in Sources */,
 				BE6620B323D141910053FD07 /* AppDelegate.swift in Sources */,
+				BE6620E323D143EB0053FD07 /* HTTPClient.swift in Sources */,
+				BE6620E523D151390053FD07 /* PlayListTableViewCell.swift in Sources */,
 				BE6620B523D141910053FD07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +632,7 @@
 		};
 		BE6620DA23D141930053FD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1109D3EF2C83DCE39B705B /* Pods-KKBOX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +650,7 @@
 		};
 		BE6620DB23D141930053FD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E29D66482E970A9E3DE777 /* Pods-KKBOX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +668,7 @@
 		};
 		BE6620DD23D141930053FD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C49BE252547261F16FB96C5 /* Pods-KKBOXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +690,7 @@
 		};
 		BE6620DE23D141930053FD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13479F203A80AA30A22D905C /* Pods-KKBOXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +712,7 @@
 		};
 		BE6620E023D141930053FD07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4B03F9CF252095F27C9FE4 /* Pods-KKBOX-KKBOXUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +732,7 @@
 		};
 		BE6620E123D141930053FD07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05395BFFF5649975CDF494DD /* Pods-KKBOX-KKBOXUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

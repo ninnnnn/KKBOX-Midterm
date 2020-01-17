@@ -1,0 +1,22 @@
+PODS:
+  - CRRefresh (1.1.3)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+
+DEPENDENCIES:
+  - CRRefresh
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - CRRefresh
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+
+PODFILE CHECKSUM: 6b1a0df1b591ba27de8adae38a6f8eb732d16d5a
+
+COCOAPODS: 1.8.4

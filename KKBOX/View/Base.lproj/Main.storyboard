@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KKBOX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="1Ix-47-cyz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="tO5-pp-ayW" customClass="PlayListTableViewCell" customModule="KKBOX" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tO5-pp-ayW" id="Muc-8n-P3z">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-sC-Ctc">
+                                                    <rect key="frame" x="20" y="10" width="80" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="B2a-Mq-KCe"/>
+                                                        <constraint firstAttribute="width" constant="80" id="VkI-Wc-9dp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEv-9A-8a7">
+                                                    <rect key="frame" x="374" y="40" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="RHm-kz-PAv"/>
+                                                        <constraint firstAttribute="width" constant="20" id="bDa-E6-dcA"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button" image="heart"/>
+                                                    <connections>
+                                                        <action selector="favoriteBtnClick:" destination="tO5-pp-ayW" eventType="touchUpInside" id="EZC-M2-qX3"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMN-fF-Jzk">
+                                                    <rect key="frame" x="120" y="39.5" width="234" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="SEv-9A-8a7" firstAttribute="leading" secondItem="yMN-fF-Jzk" secondAttribute="trailing" constant="20" id="54p-Y8-iZh"/>
+                                                <constraint firstAttribute="bottom" secondItem="DMP-sC-Ctc" secondAttribute="bottom" constant="10" id="DPc-YX-3Rj"/>
+                                                <constraint firstAttribute="trailing" secondItem="SEv-9A-8a7" secondAttribute="trailing" constant="20" id="OUT-bQ-S6u"/>
+                                                <constraint firstItem="SEv-9A-8a7" firstAttribute="centerY" secondItem="Muc-8n-P3z" secondAttribute="centerY" id="R4P-oM-2ju"/>
+                                                <constraint firstItem="DMP-sC-Ctc" firstAttribute="top" secondItem="Muc-8n-P3z" secondAttribute="top" constant="10" id="T2m-P4-Qjl"/>
+                                                <constraint firstItem="DMP-sC-Ctc" firstAttribute="leading" secondItem="Muc-8n-P3z" secondAttribute="leading" constant="20" id="rTt-bJ-h5f"/>
+                                                <constraint firstItem="yMN-fF-Jzk" firstAttribute="leading" secondItem="DMP-sC-Ctc" secondAttribute="trailing" constant="20" id="wFd-bb-eTD"/>
+                                                <constraint firstItem="yMN-fF-Jzk" firstAttribute="centerY" secondItem="Muc-8n-P3z" secondAttribute="centerY" id="xRw-FB-Ozw"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="albumImg" destination="DMP-sC-Ctc" id="KwN-50-Cqg"/>
+                                            <outlet property="favoriteBtn" destination="SEv-9A-8a7" id="udF-dk-UNX"/>
+                                            <outlet property="songLabel" destination="yMN-fF-Jzk" id="3n8-dy-dgn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1Ix-47-cyz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="B0A-M4-XBH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Ix-47-cyz" secondAttribute="trailing" id="ffD-wP-ut6"/>
+                            <constraint firstItem="1Ix-47-cyz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gLk-Do-D24"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1Ix-47-cyz" secondAttribute="bottom" id="ion-qZ-N6u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="1Ix-47-cyz" id="eQs-1c-tqD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart" width="512" height="512"/>
+    </resources>
+</document>
